@@ -1,0 +1,50 @@
+[
+    {
+        "name":"Archmage's Gem",
+        "role":"damage"
+    },
+    {
+        "name":"Blood-soaked Shroud",
+        "role":"tank"
+    },
+    {
+        "name":"Bluestone Brooch",
+        "role":"damage"
+    },
+    {
+        "name":"Bumba's Hammer",
+        "role":"damage"
+    },
+    {
+        "name":"Bumba's Spear",
+        "role":"damage"
+    },
+    {
+        "name":"Death's Embrace",
+        "role":"hybrid"
+    },
+    {
+        "name":"Heroism",
+        "role":"tank"
+    },
+    {
+        "name":"Hunter's Cowl",
+        "role":"damage"
+    },
+    {
+        "name":"Pendulum of the Ages",
+        "role":"damage"
+    },
+    {
+        "name":"Sharpshooter's Arrow",
+        "role":"damage"
+    },
+    {
+        "name":"Sundering Axe",
+        "role":"tank"
+    },
+    {
+        "name":"War Banner",
+        "role":"tank"
+    }
+]

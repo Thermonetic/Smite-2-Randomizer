@@ -1,0 +1,164 @@
+[
+    {
+        "name":"Arondight",
+        "scaling":"str",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Avatar's Parashu",
+        "scaling":"str",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Avenging Blade",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Barbed Carver",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Bloodforge",
+        "scaling":"str",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Deathbringer",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Demon Blade",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Devourer's Gauntlet",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Dominance",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Eye of the Storm",
+        "scaling":"str",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Heartseeker",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Hydra's Lament",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Jotunn's Revenge",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Lernaean Bow",
+        "scaling":"str",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Musashi's Dual Swords",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Oath-sworn Spear",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Pendulum Blade",
+        "scaling":"str",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Rage",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Runeforged Hammer",
+        "scaling":"str",
+        "role":"hybrid",
+        "active":"no"
+    },
+    {
+        "name":"Sanguine Lash",
+        "scaling":"str",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Shield Splitter",
+        "scaling":"str",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Tekko-Kagi",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"The Crusher",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"The Reaper",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Titan's Bane",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Transcendence",
+        "scaling":"str",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Wyrmskin Hide",
+        "scaling":"str",
+        "role":"tank",
+        "active":"no"
+    }
+]

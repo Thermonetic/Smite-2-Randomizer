@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Dagger of Frenzy",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Golden Blade",
+        "scaling":"auto",
+        "role":"hybrid",
+        "active":"no"
+    },
+    {
+        "name":"Hastened Fatalis",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Qin's Blade",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Riptalon",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Silverbranch Bow",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Sun Beam Bow",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Toxic Blade",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Tyrfing",
+        "scaling":"auto",
+        "role":"damage",
+        "active":"no"
+    }
+]

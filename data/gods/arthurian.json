@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Merlin",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"arthurian",
+        "damage":"magical"
+    },
+    {
+        "name":"Mordred",
+        "attack":"melee",
+        "scaling":"hybrid",
+        "pantheon":"arthurian",
+        "damage":"physical"
+    },
+    {
+        "name":"Morgan Le Fay",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"arthurian",
+        "damage":"magical"
+    }
+]

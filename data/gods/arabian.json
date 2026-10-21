@@ -1,0 +1,7 @@
+{
+    "name":"Aladdin",
+    "attack":"melee",
+    "scaling":"hybrid",
+    "pantheon":"arabian",
+    "damage":"magical"
+}

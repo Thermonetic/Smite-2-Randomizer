@@ -1,0 +1,242 @@
+[
+    {
+        "name":"Alchemist Coat",
+        "scaling":"int",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Ancient Signet",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Bancroft's Talon",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Blood-Bound Book",
+        "scaling":"int",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Book of Thoth",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Bracer of the Abyss",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Chronos' Pendant",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Divine Ruin",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Doom Orb",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Dreamer's Idol",
+        "scaling":"int",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Eros' Bow",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Ethereal Staff",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Gem of Focus",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Gem of Isolation",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"no"
+    },
+    {
+        "name":"Gluttonous Grimoire",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Heartwood Charm",
+        "scaling":"int",
+        "role":"support",
+        "active":"yes"
+    },
+    {
+        "name":"Helm of Darkness",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Helm of Radiance",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"no"
+    },
+    {
+        "name":"Jade Scepter",
+        "scaling":"int",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Lifebinder",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Lotus Sickle",
+        "scaling":"int",
+        "role":"support",
+        "active":"yes"
+    },
+    {
+        "name":"Necronomicon",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Nimble Ring",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Obsidian Shard",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Polynomicon",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Rod of Asclepius",
+        "scaling":"int",
+        "role":"support",
+        "active":"yes"
+    },
+    {
+        "name":"Rod of Tahuti",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Scepter of Dominion",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Soul Gem",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Soul Locket",
+        "scaling":"int",
+        "role":"support",
+        "active":"yes"
+    },
+    {
+        "name":"Soul Reaver",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Spear of Desolation",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Spear of the Magus",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Sphere of Negation",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"no"
+    },
+    {
+        "name":"Staff of Myrddin",
+        "scaling":"int",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"The Cosmic Horror",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"The World Stone",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Totem of Death",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Typhon's Heart",
+        "scaling":"int",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Wish-Granting Pearl",
+        "scaling":"int",
+        "role":"hybrid",
+        "active":"no"
+    }
+]

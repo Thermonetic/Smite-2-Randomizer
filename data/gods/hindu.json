@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Agni",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"hindu",
+        "damage":"magical"
+    },
+    {
+        "name":"Ganesha",
+        "attack":"melee",
+        "scaling":"int",
+        "pantheon":"hindu",
+        "damage":"magical"
+    },
+    {
+        "name":"Kali",
+        "attack":"melee",
+        "scaling":"hybrid",
+        "pantheon":"hindu",
+        "damage":"physical"
+    },
+    {
+        "name":"Rama",
+        "attack":"ranged",
+        "scaling":"str",
+        "pantheon":"hindu",
+        "damage":"physical"
+    },
+    {
+        "name":"Ravana",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"hindu",
+        "damage":"physical"
+    }
+]

@@ -1,0 +1,290 @@
+[
+    {
+        "name":"Amanita Charm",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Ancile",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Berserker's Shield",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Breastplate of Valor",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Chandra's Grace",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Circe's Hexstone",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Contagion",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Doublet of Binding",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Draconic Scale",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Dwarven Plate",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Erosion",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Eye of Providence",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Freya's Tears",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Gauntlet of Thebes",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Genji's Guard",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Gladiator's Shield",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Glorious Pridwen",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Hide of the Nemean Lion",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Hussar's Wings",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Kinetic Cuirass",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Leviathan's Hide",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Magi's Cloak",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Mantle of Discord",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Midgardian Mail",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Mystical Mail",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Odysseus' Bow",
+        "scaling":"no",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Oni Hunter's Garb",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Pharaoh's Curse",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Phoenix Feather",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Prophetic Cloak",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Radiant Bulwark",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Ragnarok's Wake",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Regrowth Striders",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Resolute Mantle",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Screeching Gargoyle",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Shield of the Phoenix",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Shogun's Ofuda",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Shroud of Vengeance",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Spectral Armor",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Spirit Robe",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Stampede",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Stone of Binding",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Stygian Anchor",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Umbral Link",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Void Shield",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Void Stone",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    },
+    {
+        "name":"Xibalban Effigy",
+        "scaling":"no",
+        "role":"tank",
+        "active":"yes"
+    },
+    {
+        "name":"Yogi's Necklace",
+        "scaling":"no",
+        "role":"tank",
+        "active":"no"
+    }
+]

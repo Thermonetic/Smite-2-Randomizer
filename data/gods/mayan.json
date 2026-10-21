@@ -1,0 +1,58 @@
+[
+    {
+        "name":"Ah Puch",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"mayan",
+        "damage":"magical"
+    },
+    {
+        "name":"Awilix",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"mayan",
+        "damage":"physical"
+    },
+    {
+        "name":"Cabrakan",
+        "attack":"melee",
+        "scaling":"hybrid",
+        "pantheon":"mayan",
+        "damage":"magical"
+    },
+    {
+        "name":"Chaac",
+        "attack":"melee",
+        "scaling":"hybrid",
+        "pantheon":"mayan",
+        "damage":"physical"
+    },
+    {
+        "name":"Hun Batz",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"mayan",
+        "damage":"physical"
+    },
+    {
+        "name":"Ix Chel",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"mayan",
+        "damage":"magical"
+    },
+    {
+        "name":"Kukulkan",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"mayan",
+        "damage":"magical"
+    },
+    {
+        "name":"Xbalanque",
+        "attack":"ranged",
+        "scaling":"hybrid",
+        "pantheon":"mayan",
+        "damage":"physical"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Artio",
+        "attack":"melee",
+        "scaling":"hybrid",
+        "pantheon":"celtic",
+        "damage":"magical"
+    },
+    {
+        "name":"Cernunnos",
+        "attack":"ranged",
+        "scaling":"hybrid",
+        "pantheon":"celtic",
+        "damage":"physical"
+    },
+    {
+        "name":"Cu Chulainn",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"celtic",
+        "damage":"physical"
+    },
+    {
+        "name":"The Morrigan",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"celtic",
+        "damage":"magical"
+    }
+]

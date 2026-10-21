@@ -1,0 +1,65 @@
+[
+    {
+        "name":"Da Ji",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"chinese",
+        "damage":"physical"
+    },
+    {
+        "name":"Guan Yu",
+        "attack":"melee",
+        "scaling":"hybrid",
+        "pantheon":"chinese",
+        "damage":"physical"
+    },
+    {
+        "name":"Hou Yi",
+        "attack":"ranged",
+        "scaling":"hybrid",
+        "pantheon":"chinese",
+        "damage":"physical"
+    },
+    {
+        "name":"Hua Mulan",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"chinese",
+        "damage":"physical"
+    },
+    {
+        "name":"Jing Wei",
+        "attack":"ranged",
+        "scaling":"str",
+        "pantheon":"chinese",
+        "damage":"physical"
+    },
+    {
+        "name":"Ne Zha",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"chinese",
+        "damage":"physical"
+    },
+    {
+        "name":"Nu Wa",
+        "attack":"ranged",
+        "scaling":"int",
+        "pantheon":"chinese",
+        "damage":"magical"
+    },
+    {
+        "name":"Sun Wukong",
+        "attack":"melee",
+        "scaling":"hybrid",
+        "pantheon":"chinese",
+        "damage":"physical"
+    },
+    {
+        "name":"Xing Tian",
+        "attack":"melee",
+        "scaling":"int",
+        "pantheon":"chinese",
+        "damage":"magical"
+    }
+]

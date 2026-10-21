@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#1c1c22">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="manifest" href="./manifest.webmanifest">
+        <script type="module" src="./js/render.js"></script>
+        <script type="module" src="./js/register-sw.js"></script>
+        <title>Smite 2 Randomizer</title>
+    </head>
+    <body>
+        <main>
+            <div id="god-name"></div>
+
+            <div id="god-card">
+                <img id="god-image" src="" alt="">
+                <button id="randomize-god-button" type="button">Randomize</button>
+            </div>
+
+            <div id="god-settings">
+                <fieldset class="pantheon-list">
+                    <legend>Pantheons</legend>
+                
+                    <label>
+                        <input type="checkbox" id="select-all" checked>
+                        Select all
+                    </label>
+                
+                    <label><input type="checkbox" name="pantheons" value="arabian" checked> Arabian</label>
+                    <label><input type="checkbox" name="pantheons" value="arthurian" checked> Arthurian</label>
+                    <label><input type="checkbox" name="pantheons" value="babylonian" checked> Babylonian</label>
+                    <label><input type="checkbox" name="pantheons" value="celtic" checked> Celtic</label>
+                    <label><input type="checkbox" name="pantheons" value="chinese" checked> Chinese</label>
+                    <label><input type="checkbox" name="pantheons" value="egyptian" checked> Egyptian</label>
+                    <label><input type="checkbox" name="pantheons" value="greek" checked> Greek</label>
+                    <label><input type="checkbox" name="pantheons" value="hindu" checked> Hindu</label>
+                    <label><input type="checkbox" name="pantheons" value="japanese" checked> Japanese</label>
+                    <label><input type="checkbox" name="pantheons" value="korean" checked> Korean</label>
+                    <label><input type="checkbox" name="pantheons" value="mayan" checked> Mayan</label>
+                    <label><input type="checkbox" name="pantheons" value="norse" checked> Norse</label>
+                    <label><input type="checkbox" name="pantheons" value="polynesian" checked> Polynesian</label>
+                    <label><input type="checkbox" name="pantheons" value="roman" checked> Roman</label>
+                    <label><input type="checkbox" name="pantheons" value="voodoo" checked> Voodoo</label>
+                    <label><input type="checkbox" name="pantheons" value="yoruba" checked> Yoruba</label>
+                </fieldset>
+
+                <fieldset class="damage-type">
+                    <legend>Damage Type</legend>
+            
+                    <label>
+                        <input type="radio" name="damage-type" value="both" checked>
+                        Both
+                    </label>
+            
+                    <label>
+                        <input type="radio" name="damage-type" value="magical">
+                        Magical
+                    </label>
+            
+                    <label>
+                        <input type="radio" name="damage-type" value="physical">
+                        Physical
+                    </label>
+                </fieldset>
+            </div>
+
+            <div id="build">
+                <figure id="relic-card" class="item-card">
+                    <img src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <figure id="starter-card" class="item-card">
+                    <img src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+
+                <div id="item-section">
+                    <figure id="item1-card" class="item-card">
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure id="item2-card" class="item-card">
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure id="item3-card" class="item-card">
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure id="item4-card" class="item-card">
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure id="item5-card" class="item-card">
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure id="item6-card" class="item-card">
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+
+                <button id="randomize-build-button" type="button">Randomize</button>
+            </div>
+
+            <div id="build-settings">
+                <fieldset class="build-type">
+                    <legend>Build Type</legend>
+            
+                    <label>
+                        <input type="radio" name="build-type" value="random" checked>
+                        True Random
+                    </label>
+            
+                    <label>
+                        <input type="radio" name="build-type" value="damage">
+                        Damage
+                    </label>
+            
+                    <label>
+                        <input type="radio" name="build-type" value="tank">
+                        Tank
+                    </label>
+                </fieldset>
+
+                <fieldset class="build-toggles">
+                    <legend>Build Toggles</legend>
+                    
+                    <label><input type="checkbox" name="auto" value="auto" checked>Attack Damage Items</label>
+                </fieldset>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+{
+    "name":"Pele",
+    "attack":"melee",
+    "scaling":"str",
+    "pantheon":"polynesian",
+    "damage":"physical"
+}

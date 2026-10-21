@@ -1,0 +1,74 @@
+[
+    {
+        "name":"Bragi's Harp",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Brawler's Beat Stick",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Damaru",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Daybreak Gavel",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Death Metal",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Eye of Erebus",
+        "scaling":"hybrid",
+        "role":"hybrid",
+        "active":"yes"
+    },
+    {
+        "name":"Mercury's Talaria",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Omen Drum",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"yes"
+    },
+    {
+        "name":"Shifter's Shield",
+        "scaling":"hybrid",
+        "role":"hybrid",
+        "active":"no"
+    },
+    {
+        "name":"The Executioner",
+        "scaling":"hybrid",
+        "role":"damage",
+        "active":"no"
+    },
+    {
+        "name":"Triton's Conch",
+        "scaling":"hybrid",
+        "role":"hybrid",
+        "active":"no"
+    },
+    {
+        "name":"Vital Amplifier",
+        "scaling":"hybrid",
+        "role":"hybrid",
+        "active":"no"
+    }
+]

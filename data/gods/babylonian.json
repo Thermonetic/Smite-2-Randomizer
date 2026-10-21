@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Gilgamesh",
+        "attack":"melee",
+        "scaling":"str",
+        "pantheon":"babylonian",
+        "damage":"physical"
+    },
+    {
+        "name":"Ishtar",
+        "attack":"ranged",
+        "scaling":"str",
+        "pantheon":"babylonian",
+        "damage":"physical"
+    }
+]

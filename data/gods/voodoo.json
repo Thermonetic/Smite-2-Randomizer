@@ -1,0 +1,7 @@
+{
+    "name":"Baron Samedi",
+    "attack":"ranged",
+    "scaling":"int",
+    "pantheon":"voodoo",
+    "damage":"magical"
+}

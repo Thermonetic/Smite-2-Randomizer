@@ -1,0 +1,248 @@
+:root {
+    --black: #0b0b0d;
+    --carbon: #1c1c22;
+    --grey: #2a2a30;
+    --purple: #bb86fc;
+    --white: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* { box-sizing: border-box; font-family: "Roboto", sans-serif; }
+
+body {
+    background: var(--black);
+    color: var(--white);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Input Styling */
+button {
+    background: var(--black);
+    color: var(--white);
+    border: 2px solid var(--purple);
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: filter 150ms ease;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+button:focus-visible {
+    outline: 2px solid var(--white);
+    outline-offset: 3px;    
+}           
+
+input {
+    accent-color: var(--purple);
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "god-name   build"
+    "god-card   build"
+    "god-settings build-settings";
+
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Left Side */
+main > *,
+.item-card,
+fieldset {
+    min-width: 0;
+}
+
+#god-name {
+    grid-area: god-name;
+    background: var(--carbon);
+    border: 3px solid var(--purple);
+
+    display: grid;
+    place-items: center;
+
+    font-size: clamp(32px, 2.5vw, 48px);
+    white-space: nowrap;
+}
+
+#god-name.no-match {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    text-align: center;
+    font-size: clamp(18px, 2vw, 28px);
+    padding: 12px;
+}
+
+#god-card {
+    grid-area: god-card;
+    background: var(--carbon);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(0, 1fr) auto;
+}
+
+#god-image {
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
+    max-height: min(42vh, 340px);
+    object-fit: contain;
+    height: auto;
+}
+
+#god-settings {
+    grid-area: god-settings;
+    background: var(--carbon)
+}
+
+.pantheon-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 4px 6px;
+    margin: 0;
+    padding: 8px;
+    font-size: 0.8rem;
+    line-height: 1.25;
+    max-height: none;
+    overflow: visible;
+}
+
+.pantheon-list label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.pantheon-list input {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.pantheon-list > label:first-of-type {
+    grid-column: 1 / -1;
+}
+
+/* Right Side */
+#build {
+    grid-area: build;
+    padding: 16px;
+    background: var(--carbon);
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 180px));
+    grid-template-rows: auto auto 48px;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas:
+        "relic   item1 item2 item3"
+        "starter item4 item5 item6"
+        "button  button button button";
+    gap: clamp(8px, 2vw, 24px);
+}
+
+#relic-card {
+    grid-area: relic;
+}
+
+#starter-card {
+    grid-area: starter;
+}
+
+#randomize-build-button {
+    grid-area: button;
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    padding: 8px;
+    overflow-wrap: anywhere;
+}
+
+#item-section {
+   display: contents;
+}
+
+.item-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    margin: 0;
+
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    height: auto;
+
+    background: var(--black);
+}
+
+#build-settings{
+    grid-area: build-settings;
+    background: var(--carbon);
+}
+
+.item-card img {
+    max-width: 72%;
+    height: auto;
+}
+
+.item-card figcaption {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 380px) {
+    .pantheon-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            "god-name"
+            "god-card"
+            "build"
+            "god-settings"
+            "build-settings";
+    }
+
+    #god-image {
+        width: min(100%, 280px);
+    }
+
+    #god-name {
+        font-size: clamp(20px, 6vw, 40px);
+    }
+}
+
