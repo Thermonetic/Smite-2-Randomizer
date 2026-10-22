@@ -131,6 +131,21 @@
                     
                     <label><input type="checkbox" name="auto" value="auto" checked>Attack Damage Items</label>
                 </fieldset>
+                <fieldset class="reroll-settings">
+                    <legend>Rerolls</legend>
+                    <label for="reroll-count">Rerolls Per Build</label>
+                    <select id="reroll-count" aria-describedby="reroll-help">
+                        <option value="0">0</option>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <p id="reroll-help">Click an item to reroll.</p>
+                    <p id="reroll-status" role="status"></p>
+                </fieldset>
             </div>
         </main>
     </body>

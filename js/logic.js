@@ -53,7 +53,7 @@ async function randomRelic() {
 }
 
 // Create a Random Build
-export async function randomBuild(god, auto, buildType) {
+export async function randomBuild(god, auto, buildType, reroll) {
     const items = await loadItems(god, auto);
     let availableItems = [...items];
 
@@ -120,5 +120,22 @@ export async function randomBuild(god, auto, buildType) {
         build.push(selectedItem);
     }
 
-    return build;
+    // Reroll Item Loop
+    const rerollItems = [];
+    for(let i = 0; i < reroll && availableItems.length > 0; i++) {
+        const index = Math.floor(Math.random() * availableItems.length);
+        const [selectedItem] = availableItems.splice(index, 1);
+        rerollItems.push(selectedItem);
+    }
+
+    const [relics, starters] = reroll > 0
+        ? await Promise.all([loadRelics(), loadStarters()])
+        : [[], []];
+    const rerollRelics = relics.filter((candidate) => !build.slice(2).some(
+        (item) => relicUpgrades.some(
+            (upgrade) => upgrade.name === item.name && upgrade.original === candidate.name
+        )
+    ));
+
+    return { build, rerollItems, rerollRelics, rerollStarters: starters };
 }

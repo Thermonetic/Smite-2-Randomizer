@@ -1,5 +1,5 @@
 // Cache version generated from app assets and service worker code.
-const BUILD_VERSION = "76d4d43498814553";
+const BUILD_VERSION = "dc5ab0820ade0f53";
 const APP_ROOT = new URL("./", self.location.href);
 const CACHE_PREFIX = `smite2-randomizer:${APP_ROOT.pathname}:`;
 const CACHE_NAME = CACHE_PREFIX + BUILD_VERSION;

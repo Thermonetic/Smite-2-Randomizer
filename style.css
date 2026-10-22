@@ -50,6 +50,19 @@ input {
     accent-color: var(--purple);
 }
 
+.reroll-settings select {
+    margin-left: 8px;
+    padding: 4px 8px;
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid var(--purple);
+    border-radius: 4px;
+}
+
+.reroll-settings p {
+    margin: 8px 0 0;
+}
+
 /* Main */
 main {
     display: grid;

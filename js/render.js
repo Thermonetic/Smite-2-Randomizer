@@ -6,6 +6,7 @@ import { assetUrl } from "./paths.js";
 
 // Variables
 let currentGod = null;
+let rerollController;
 const godNameCard = document.querySelector("#god-name");
 const godImage = document.querySelector("#god-image");
 const relicCard = document.querySelector("#relic-card");
@@ -75,13 +76,25 @@ async function renderGod() {
 }
 
 async function renderBuild() {
+  rerollController?.abort();
   if (!currentGod) return;
 
+  // Acquiring Build
   const auto = getAuto();
   const buildType = getBuildType();
 
-  let build = await randomBuild(currentGod, auto, buildType);
+  const rerollCount = Number(document.querySelector("#reroll-count").value);
+  const result = await randomBuild(currentGod, auto, buildType, rerollCount);
+  const build = result.build;
+  const rerollItems = result.rerollItems;
+  let rerollsRemaining = rerollCount;
+  const rerollStatus = document.querySelector("#reroll-status");
+  function updateRerollStatus() {
+    rerollStatus.textContent = `Rerolls Remaining: ${rerollsRemaining}`;
+  }
+  updateRerollStatus();
 
+  // Rendering Relic and Starter
   relicCard.querySelector("img").src = assetUrl(`imgs/relics/${build[0].name}.webp`);
   relicCard.querySelector("img").alt = build[0].name;
   relicCard.querySelector("figcaption").textContent = build[0].name;
@@ -90,12 +103,57 @@ async function renderBuild() {
   starterCard.querySelector("img").alt = build[1].name;
   starterCard.querySelector("figcaption").textContent = build[1].name;
 
-  for (let i = 1; i <=6 ; i++) {
-    let itemCard = document.querySelector(`#item${i}-card`);
+  // Reroll Controller
+  const controller = new AbortController();
+  rerollController = controller;
 
-    itemCard.querySelector("img").src = assetUrl(`imgs/items/${build[i+1].name}.webp`);
-    itemCard.querySelector("img").alt = build[i+1].name;
-    itemCard.querySelector("figcaption").textContent = build[i+1].name;
+  function consumeReroll() {
+    rerollsRemaining--;
+    updateRerollStatus();
+    if (rerollsRemaining === 0) controller.abort();
+  }
+
+  function enableSlotReroll(card, buildIndex, folder, pool) {
+    if (rerollsRemaining === 0) return;
+    card.addEventListener("click", () => {
+      const candidates = pool.filter((item) => item.name !== build[buildIndex].name);
+      if (candidates.length === 0) return;
+      const replacement = candidates[Math.floor(Math.random() * candidates.length)];
+      build[buildIndex] = replacement;
+      const image = card.querySelector("img");
+      image.src = assetUrl(`imgs/${folder}/${replacement.name}.webp`);
+      image.alt = replacement.name;
+      card.querySelector("figcaption").textContent = replacement.name;
+      consumeReroll();
+    }, { signal: controller.signal });
+  }
+
+  enableSlotReroll(relicCard, 0, "relics", result.rerollRelics);
+  enableSlotReroll(starterCard, 1, "starters", result.rerollStarters);
+
+  // Render Loop for Items
+  for (let i = 1; i <=6 ; i++) {
+    const itemCard = document.querySelector(`#item${i}-card`);
+    const buildIndex = i + 1;
+
+    function renderItem(item) {
+      const image = itemCard.querySelector("img");
+
+      image.src = assetUrl(`imgs/items/${item.name}.webp`);
+      image.alt = item.name;
+      itemCard.querySelector("figcaption").textContent = item.name;
+    }
+
+    renderItem(build[buildIndex]);
+
+    if (rerollsRemaining === 0 || !rerollItems[0]) continue;
+
+    itemCard.addEventListener("click", () => {
+      if (!rerollItems[0]) return;
+      build[buildIndex] = rerollItems.shift();
+      renderItem(build[buildIndex]);
+      consumeReroll();
+    }, { signal: controller.signal });
   }
 }
 
