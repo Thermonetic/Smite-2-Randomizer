@@ -6,6 +6,9 @@ import {
     loadStarters
 } from "./data.js";
 
+const recentGodLimit = 5;
+const recentGods = [];
+
 // Get a Random God
 export async function randomGod(pantheons, damageType = "both") {
     const gods = await loadGods(pantheons);
@@ -18,8 +21,21 @@ export async function randomGod(pantheons, damageType = "both") {
         return null;
     }
 
-    const index = Math.floor(Math.random() * availableGods.length);
-    return availableGods[index];
+    // Recent Exclusion Logic
+    const excludedGods = recentGods.slice();
+    let candidates = availableGods.filter((god) => !excludedGods.includes(god.name));
+    while (candidates.length === 0) {
+        excludedGods.shift();
+        candidates = availableGods.filter((god) => !excludedGods.includes(god.name));
+    }
+
+    const index = Math.floor(Math.random() * candidates.length);
+    const selectedGod = candidates[index];
+    recentGods.push(selectedGod.name);
+    if (recentGods.length > recentGodLimit) {
+        recentGods.shift();
+    }
+    return selectedGod;
 }
 
 // Get a Random Starter
